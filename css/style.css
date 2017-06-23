@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #009688;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Carter One', cursive;
+    font-size: 3em;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: 'Carter One', cursive;
+    font-size: 1em;
+}
+
+#showRestaurantsButton:disabled {
+    background-color: #ba6f91;
+    box-shadow: 0 5px #84586a;
+    cursor: not-allowed;
+}
+
+#showRestaurantsButton {
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    width: 250px;
+    height: 50px;
+    background-color: #9b0f4e;
+    box-shadow: 0 5px #6c0f37;
+    margin-top: 10px;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Carter One', cursive;
+    font-size: 1.5em;
+    border: 0px;
+}
+
+.restaurant {
+    text-align: center;
+    background-color: #9b0f4e;
+    color: white;
+    font-family: 'Carter One', cursive;
+    font-size: 1.8em;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+#address {
+    font-size: 0.5em;
+}
